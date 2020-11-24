@@ -1,6 +1,6 @@
-# Ara Cho - Makers Portfolio
+# Hello, World! Welcome to Ara Cho's Portfolio
 
-**Hello, World** This is my learning journey at Makers. I will be tracking my learning at each week.
+This is my learning journey at Makers. I will be tracking my learning at each week.
 
 ## Goals
 #### Test-Driven Development
