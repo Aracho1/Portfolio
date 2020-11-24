@@ -1,4 +1,4 @@
-# Hello, World! This is Ara's Portfolio
+# Hello, World! Ara Cho's Developer Portfolio
 
 This is my learning journey at Makers. I will be tracking my learning at each week.
 
