@@ -16,4 +16,4 @@ This is my learning journey at Makers. I will be tracking my learning at each we
 #### Collaboration
 
 ## Projects
-- [Precourse](https://github.com/Aracho1/mastery-quizzes)
+- [Precourse](https://github.com/Aracho1/mastery-quizzes): Solutions to Ruby challenges
