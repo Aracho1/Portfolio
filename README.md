@@ -1,4 +1,4 @@
-# Hello, World! Welcome to Ara Cho's Portfolio
+# Hello, World! This is Ara's Portfolio
 
 This is my learning journey at Makers. I will be tracking my learning at each week.
 
