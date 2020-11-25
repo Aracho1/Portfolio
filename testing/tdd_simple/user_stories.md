@@ -8,6 +8,8 @@
 | game      | play          |
 | dice      | give a number |
 
+
+
 > As a board game player,  
 > So that I know how many steps I should move  
 > Rolling a dice should give me a number between 1 and 6
@@ -16,6 +18,8 @@
 |--------|-------------------------------|
 | player | roll                          |
 | dice   | give a number between 1 and 6 |
+
+
 
 > As a dice app developper,  
 > So that I give players a good game experience  
@@ -27,6 +31,8 @@
 | players   |                 |
 | dice      | randomly picked |
 
+
+
 > As a board game player,  
 > So that I can play many types of games  
 > I want to be able to roll any number of dice at the same time
@@ -35,6 +41,8 @@
 |--------|--------------------------|
 | player | play many types of games |
 | dice   | roll                     |
+
+
 
 > As a board game player,  
 > So that I know what my score was when I rolled several dice  
