@@ -27,6 +27,3 @@ And I want to see the average of my last 3 ratings
 => [6,3,5]
 > average_motivation
 => "Your average motivation in the last 3 days is 4.7."
-
-## Exercise 3
-### Imagine how to use this brief:
