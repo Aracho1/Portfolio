@@ -10,6 +10,3 @@ class Dice
     end
   end
 end
-
-dice = Dice.new
-p dice.roll(3)
