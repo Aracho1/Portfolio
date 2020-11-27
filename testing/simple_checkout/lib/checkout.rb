@@ -1,10 +1,9 @@
 class Supermarket
-  attr_accessor :shelf
-  attr_reader :basket
+  attr_accessor :shelf, :basket
 
   def initialize
-    @shelf = {"apple" => 1.20, "banana" => 0.8, "oranges" => 3.2, "chocolate" => 2.4}
-    @basket = [{"juice" => 2.4}, {"gum" => 0.8}]
+    @shelf = {"apple" => 1.2, "banana" => 0.8, "oranges" => 3.2, "chocolate" => 2.4}
+    @basket = []
   end
 
   # show price of an item
