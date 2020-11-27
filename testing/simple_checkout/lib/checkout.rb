@@ -30,7 +30,7 @@ class Supermarket
   def receipt
     @basket.each do |item|
       item.each do |name, price|
-        puts "item: #{name}, price: £#{ "%.2f" % item.values[0]}"
+        puts "Item: #{name}, price: £#{ "%.2f" % item.values[0]}"
       end
     end
   end

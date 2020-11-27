@@ -25,7 +25,7 @@ describe Supermarket do
 
   describe "#receipt" do
     it 'shows the formatted price of each item in the basket' do
-      expect(subject.receipt).to eq("Item: gum, price: £0.80")
+      expect(subject.receipt).to eq("Item: juice, price: £2.40\nItem: gum, price: £0.80")
     end
   end
 end
