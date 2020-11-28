@@ -1,18 +1,18 @@
-##Behaviour Driven Development
+## Behaviour Driven Development
 - BDD is a branch of TDD
 - It uses human readable descriptions of software user requirements as the basis for tests. It involves the definition of entities, events and outputs that the user cares about and giving them names everybody agrees on.
 - Consists of unit test, functional test and integration test
 
-##Unit-Testing
+## Unit-Testing
 - Unit testing tests codes in isolation from the rest of the application 
 - Integration tests test whether units work together when they are composed to form a whole application e.g. API communication
 
-**Arrange, act**and **assert**
+**Arrange, act** and **assert**
 -**arrange** all the necessary preconditions and inputs
 -**act** on the object or method under test
 -**assert** that the expected results have occurred
 
-##Rspec methods - notes
+## Rspec methods - notes
 
 **let**(:bike) { Bike.new }
 - let generates a method whose return value is memorised after the first call
@@ -42,12 +42,12 @@
 
 **change**
 
-##Other notes
-####Diff. between return and output
+## Other notes
+#### Diff. between return and output
 -A**return** value is the data returned to the program by the execution of a method
 -**puts** or **print** has a return value of **nil**
 
-####Side-Effect
+#### Side-Effect
 - When a program has an observable effect besides returning a value
 - Side effects can make a program unpredictable
 - pure function: a function that always has the same result for the same input
