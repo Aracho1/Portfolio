@@ -1,3 +1,17 @@
+## Three Rules of TDD
+1. Don't write any code unless it is to make a failing unit test pass
+2. Don't write more of a unit test than is sufficient to fail
+3. Don't write any more code than what is sufficient to make a test pass
+
+## Benefits of TDD
+- Improved code quality
+- Instant feedback
+- Creates detailed specification
+- Reduces time on rework and debugging
+- Reduces development time to market
+- Forces you to write simple code 
+- Easier to change code later
+
 ## Behaviour Driven Development
 - BDD is a branch of TDD
 - It uses human readable descriptions of software user requirements as the basis for tests. It involves the definition of entities, events and outputs that the user cares about and giving them names everybody agrees on.
