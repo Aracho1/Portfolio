@@ -31,16 +31,23 @@
  -  no big difference. subject does not have to be defined explicitly but the testing then may become harder to understand.
 
  **one-liner syntax**
- - rspec supports one-liner syntex for setting an expectation on the subject. 
- - it can be done in two ways: 
- - (a) **is_expected**
- - (b) **should**
- - e.g. it { is.expected to_be empty }
- - e.g. it { should be_empty }
+- rspec supports one-liner syntex for setting an expectation on the subject. 
+- it can be done in two ways: 
+- (a) **is_expected**
+- (b) **should**
+- e.g. it { is.expected to_be empty }
+- e.g. it { should be_empty }
 
 **'raise_error'**
+- a matcher that specifies a block of code should raise an error
+- expect { block_of_code }.to raise_error
+- expect { block_of_code }.to riase_error(ErrorType, "error message")
+- [documentation](https://relishapp.com/rspec/rspec-expectations/docs/built-in-matchers/raise-error-matcher)
 
 **change**
+- a matcher to specify that a block of code changes some state
+- expect { block_of_code }.to change(object, :attribute)
+- expect { block_of_code }.to change{ object.state }
 
 ## Other notes
 #### Diff. between return and output
