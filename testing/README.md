@@ -1,4 +1,18 @@
-## rspec methods - notes
+##Behaviour Driven Development
+- BDD is a branch of TDD
+- It uses human readable descriptions of software user requirements as the basis for tests. It involves the definition of entities, events and outputs that the user cares about and giving them names everybody agrees on.
+- Consists of unit test, functional test and integration test
+
+##Unit-Testing
+- Unit testing tests codes in isolation from the rest of the application 
+- Integration tests test whether units work together when they are composed to form a whole application e.g. API communication
+
+**Arrange, act**and **assert**
+-**arrange** all the necessary preconditions and inputs
+-**act** on the object or method under test
+-**assert** that the expected results have occurred
+
+##Rspec methods - notes
 
 **let**(:bike) { Bike.new }
 - let generates a method whose return value is memorised after the first call
@@ -15,3 +29,26 @@
  - Conclusion: use 'let' in majority cases but do not overuse it.
  - excellent [stack overflow article](https://stackoverflow.com/questions/38437162/whats-the-difference-between-rspecs-subject-and-let-when-should-they-be-used)
  -  no big difference. subject does not have to be defined explicitly but the testing then may become harder to understand.
+
+ **one-liner syntax**
+ - rspec supports one-liner syntex for setting an expectation on the subject. 
+ - it can be done in two ways: 
+ - (a) **is_expected**
+ - (b) **should**
+ - e.g. it { is.expected to_be empty }
+ - e.g. it { should be_empty }
+
+**'raise_error'**
+
+**change**
+
+##Other notes
+####Diff. between return and output
+-A**return** value is the data returned to the program by the execution of a method
+-**puts** or **print** has a return value of **nil**
+
+####Side-Effect
+- When a program has an observable effect besides returning a value
+- Side effects can make a program unpredictable
+- pure function: a function that always has the same result for the same input
+- functional programming is the process of building software by composing pure functions, avoiding shared state, mutable data and side effects. It is a different programming paradigm than OOP.
