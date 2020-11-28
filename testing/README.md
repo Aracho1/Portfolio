@@ -7,7 +7,7 @@
 - Unit testing tests codes in isolation from the rest of the application 
 - Integration tests test whether units work together when they are composed to form a whole application e.g. API communication
 
-**Arrange, act** and **assert**
+##Arrange, act and assert
 -**arrange** all the necessary preconditions and inputs
 -**act** on the object or method under test
 -**assert** that the expected results have occurred
@@ -44,11 +44,11 @@
 
 ## Other notes
 #### Diff. between return and output
--A**return** value is the data returned to the program by the execution of a method
--**puts** or **print** has a return value of **nil**
+- A **return** value is the data returned to the program by the execution of a method
+- **puts** or **print** has a return value of **nil**
 
-#### Side-Effect
+#### Side Effects
 - When a program has an observable effect besides returning a value
 - Side effects can make a program unpredictable
-- pure function: a function that always has the same result for the same input
-- functional programming is the process of building software by composing pure functions, avoiding shared state, mutable data and side effects. It is a different programming paradigm than OOP.
+- Pure function: a function that always has the same result for the same input
+- Functional programming is the process of building software by composing pure functions, avoiding shared state, mutable data and side effects. It is a different programming paradigm than OOP.
