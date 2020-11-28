@@ -7,7 +7,7 @@
 - Unit testing tests codes in isolation from the rest of the application 
 - Integration tests test whether units work together when they are composed to form a whole application e.g. API communication
 
-## Arrange, act and assert
+## Arrange, Act and Assert (Unit Testing)
 - **arrange** all the necessary preconditions and inputs
 - **act** on the object or method under test
 - **assert** that the expected results have occurred
