@@ -16,8 +16,8 @@ This is my learning journey at Makers. I will be tracking my learning at each we
 #### Collaboration
 
 ## Projects
-- [Airport Challenge](https://github.com/Aracho1/airport_challenge)
-- [Precourse](https://github.com/Aracho1/mastery-quizzes): Understanding of Ruby fundamentals and solving challenges
+- [Airport Challenge](https://github.com/Aracho1/airport_challenge): Test developing a simple program using Ruby and RSpec
+- [Precourse](https://github.com/Aracho1/mastery-quizzes): Understanding of Ruby fundamentals
 
 ## Blog Posts
 I have been writing regular blog posts about my developer journey on Medium.
