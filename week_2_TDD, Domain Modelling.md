@@ -1,6 +1,6 @@
 # Week 2
 
-### Weekly Goal
+### Weekly Goals
 1. Continue focus learning Test Driven Development
 - Goal: Be able to write unit Tests that are isolated
 - To look into: mocking, test doubles
