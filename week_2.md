@@ -1,12 +1,12 @@
 # Week 2
 
 ### Weekly Goal
-1. TDD
-- Subject: Writing Unit Tests that are isolated
-- Topic: mocking, test doubles
+1. Continue focus learning Test Driven Development
+- Goal: Be able to write unit Tests that are isolated
+- To look into: mocking, test doubles
 - Exercises: Dependency Injection, oystercard challenge
 
-2. Process workshop
+2. Attend the process workshop
 - Attend and record my first process workshop
 - Get coach feedback 
 
