@@ -1,6 +1,6 @@
-# Hello, World! Ara Cho's Developer Portfolio
+# Ara Cho's Developer Portfolio
 
-This is my learning journey at Makers. I will be tracking my learning at each week.
+This is my learning journey at Makers. I will be tracking my goals, progress and achievements each week. 
 
 ## Goals
 #### [Test-Driven Development](https://github.com/Aracho1/Portfolio/tree/main/testing)
