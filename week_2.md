@@ -1,4 +1,5 @@
-# Week 2: Dependency Injection, Domain Modelling and Process Workshop
+# Week 2
+## Dependency Injection, Domain Modelling and Process Workshop
 
 ### Weekly Goals
 1. Continue focus learning Test Driven Development
