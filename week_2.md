@@ -2,14 +2,14 @@
 ## Dependency Injection, Domain Modelling and Process Workshop
 
 ### Weekly Goals
-1. Continue focus learning Test Driven Development
-- Goal: Be able to write unit Tests that are isolated
-- To look into: mocking, test doubles
-- Exercises: Dependency Injection, oystercard challenge
 
-2. Attend the process workshop
-- Attend and record my first process workshop
-- Get coach feedback 
+| Goal | Detail | Progress Measure | Exercises | Goal met? | Evidence |
+| ------ | ------ | ------ | ------ | ------ | ------ | 
+| Unit testing | Learn how to write isolated unit tests | Complete related exercises. Get coach feedback | (1)[Testing OO Relationships using Mocking](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/testing_relationships.md) (2)[Dependency Injection](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/dependency_injection.md)(3)[Testing behaviour over testing state](https://github.com/makersacademy/skills-workshops/blob/master/practicals/testing/behaviour_not_state.md) | In progress | In progress
+| Process Workshop | Attend my first process workshop. | Be able to structure and demonstrate process  | Complete a code kata | Yes! | [my first process workshop](https://github.com/Aracho1/Portfolio/tree/main/process_workshops)
+| tbc |  |
+| tbc |  |
+
 
 ### Coach feedback on weekend challenge ([airport challenge](https://github.com/Aracho1/airport_challenge))
 
