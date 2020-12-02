@@ -7,7 +7,7 @@
 | Unit testing | Learn how to write isolated unit tests | Complete related exercises. Get coach feedback | (1)[Testing OO Relationships using Mocking](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/testing_relationships.md) (2)[Dependency Injection](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/dependency_injection.md)(3)[Testing behaviour over testing state](https://github.com/makersacademy/skills-workshops/blob/master/practicals/testing/behaviour_not_state.md) | In progress | In progress
 | Process Workshop | Attend my first process workshop | Be able to structure and demonstrate process  | Complete a code kata | Yes! | [my first process workshop](https://github.com/Aracho1/Portfolio/tree/main/process_workshops)
 | Oystercard challenge | Work on pair programming challenge | Meet challenge requirements | Using mock, double | In progress | repo
-| Weekend Challenge | Complete the weekend challenge  |
+| Weekend Challenge | Work on the weekend challenge  | Complete the project with high quality code | - | Not yet started| repo |
 
 
 ### Coach feedback on weekend challenge ([airport challenge](https://github.com/Aracho1/airport_challenge))
