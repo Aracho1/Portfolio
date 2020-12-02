@@ -29,14 +29,14 @@ RSpec.describe SecretDiary do
     it 'refuses to be written' do
       diary = instance_double('SecretDiary')
       expect(diary).to receive(:write).and_return("Go away!")
-      diary.write('hello!')
+      diary.write('hello!') # why do we need this line of code instead of just line 31?
     end
   end
 
   context "when unlocked" do
     it 'gets read' do
       diary = instance_double('SecretDiary')
-      allow(diary).to receive(:unlock)
+      allow(diary).to receive(:unlock) # is there a way to control the variable 'unlocked' for the test?
       expect(diary).to receive(:read).and_return("Hello!") # how does the test match the return statement?
       diary.read # why is this line needed to pass the test?
     end
