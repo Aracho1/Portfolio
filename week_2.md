@@ -8,6 +8,7 @@
 | Process Workshop | Attend my first process workshop | Be able to structure and demonstrate process  | Complete a code kata | Yes! | [my first process workshop](https://github.com/Aracho1/Portfolio/tree/main/process_workshops)
 | Oystercard challenge | Work on pair programming challenge | Meet challenge requirements | Using mock, double | In progress | repo
 | Weekend Challenge | Work on the weekend challenge  | Complete the project with high quality code | - | Not yet started| repo |
+| Write blog | Write a blog post on Medium about this week | Posting | Write about TDD? Process workshop? | Not yet started | post |
 
 
 ### Coach feedback on weekend challenge ([airport challenge](https://github.com/Aracho1/airport_challenge))
