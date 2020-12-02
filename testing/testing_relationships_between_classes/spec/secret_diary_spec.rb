@@ -12,7 +12,7 @@ RSpec.describe SecretDiary do
     it 'refuses to be written' do
       diary = instance_double('SecretDiary')
       expect(diary).to receive(:write).and_return("Go away!")
-      diary.write('hello!') # why do we need this line of code instead of just line 31?
+      diary.write('hello!') # why do we need this line of code instead of just one above?
     end
   end
 
