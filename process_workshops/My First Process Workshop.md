@@ -24,7 +24,7 @@ I recorded my process [here](https://drive.google.com/file/d/1bTXagYLMUVCizd-Vw9
 - Input / output table can be helpful
 - Give sufficient time to planning 
 
-** Note for next time **
+**Note for next time**
 - Do not record using Macbook function because it won't record the sound!
 - Think about a problem I want to bring for the next workshop (instead of picking from the given list)
 - Leverage the domain modelling template from the coach workshop
