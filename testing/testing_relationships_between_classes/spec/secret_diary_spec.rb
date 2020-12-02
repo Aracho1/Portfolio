@@ -19,8 +19,8 @@ RSpec.describe SecretDiary do
   context "when unlocked" do
     it 'gets read' do
       diary = instance_double('SecretDiary')
-      allow(diary).to receive(:unlock) # is there a way to control the variable 'unlocked' for the test?
-      expect(diary).to receive(:read).and_return("Hello!") # how does the test match the return statement?
+      allow(diary).to receive(:unlock) # instead of using the unlock method, can we test by manipulating 'unlocked' variable?
+      expect(diary).to receive(:read).and_return("Hello!") # how does the test check whether the return matches "hello" when I haven't passed it in?
       diary.read # why is this line needed to pass the test?
     end
 
