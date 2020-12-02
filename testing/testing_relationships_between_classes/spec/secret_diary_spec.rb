@@ -1,34 +1,31 @@
 require_relative '../lib/secret_diary'
 
 RSpec.describe SecretDiary do
+  let(:diary) { double }
+  let(:secret_diary) { SecretDiary.new(diary) }
   context "when locked" do
     it 'refuses to be read' do
-      diary = instance_double('SecretDiary') # do we have to have instance double?
-      expect(diary).to receive(:read).and_return("Go away!")
-      diary.read
-      # why is the expect statement needed before calling on the read method?
+      secret_diary.lock
+      expect(secret_diary.read).to eq "Go away!"
     end
 
     it 'refuses to be written' do
-      diary = instance_double('SecretDiary')
-      expect(diary).to receive(:write).and_return("Go away!")
-      diary.write('hello!') # why do we need this line of code instead of just one above?
+      secret_diary.lock
+      expect(secret_diary.write(diary)).to eq "Go away!"
     end
   end
 
   context "when unlocked" do
     it 'gets read' do
-      diary = instance_double('SecretDiary')
-      allow(diary).to receive(:unlock) # instead of using the unlock method, can we test by manipulating 'unlocked' variable?
-      expect(diary).to receive(:read).and_return("Hello!") # how does the test check whether the return matches "hello" when I haven't passed it in?
-      diary.read # why is this line needed to pass the test?
+      secret_diary.unlock
+      allow(diary).to receive(:read).and_return("hello, I'm your diary!")
+      expect(secret_diary.read).to eq "hello, I'm your diary!"
     end
 
     it 'gets written' do
-      diary = instance_double('SecretDiary')
-      allow(diary).to receive(:unlock)
-      expect(diary).to receive(:write).with("new diary entry")
-      diary.write("new diary entry") # why is this line needed to pass the test?
+      secret_diary.unlock
+      allow(diary).to receive(:write).with("new diary entry")
+      expect(secret_diary.write("new diary entry")).to be nil
     end
   end
 end
