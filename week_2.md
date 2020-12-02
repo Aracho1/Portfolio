@@ -27,7 +27,6 @@ Things to look at to improve (goals for the week):
 ```
 
 ### Workshop on Domain model diagramming
-**Key takeaways**
 
 Domain modelling [template](https://docs.google.com/document/d/1J1HhScM5-4rzqWL8SylgQBnl6fg6KPlFakflxbeNvsc/edit?usp=sharing)
 
