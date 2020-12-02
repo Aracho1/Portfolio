@@ -38,6 +38,16 @@ Domain modelling [template](https://docs.google.com/document/d/1J1HhScM5-4rzqWL8
 
 3. class diagrams: class(owners), properties(instance variables), actions(methods)
 
+### Workshop on Emotional Intelligence
+Ego, fear and self-protection are the common reasons people avoid getting feedback
+
+To be a good feedback receiver:
+- shift perspective: neutralise feedback. See it as information. I can choose how to respond to it.
+- avoid 'wrong spotting': looking for wrong things in a given information / feedback
+
+Framework for good feedback: Actionable, Specific and Kind.
+
+
 ### Knowledge Snippets 
 #### RSpec allow/expect vs. expect/and_return
 Allow makes a stub while expect makes a mock. That is allow allows an object to return X instead of whatever it would return unstubbed, and expect is an allow plus an expectation of some state or event. 
