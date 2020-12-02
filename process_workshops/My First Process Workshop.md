@@ -1,4 +1,4 @@
-## Process Workshop
+## Process Workshop: Wednesday December 01, 2020
 
 I attended my first process workshop at Makers. The general outline of the process workshop can be found [here](https://github.com/makersacademy/skills-workshops/tree/master/process_review).
 
