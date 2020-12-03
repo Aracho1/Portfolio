@@ -47,6 +47,42 @@ To be a good feedback receiver:
 
 Framework for good feedback: Actionable, Specific and Kind.
 
+### Women Who Code (WWC) Connect Forward Conference: December 3-4, 2020, Online
+#### Talk: Job Interviewing: Pandemic Challenge Mode
+Speaker: @stonecoldkilzer
+
+Get used to rejection: it isn't personal
+
+Seniors get rejected at all phases: screening, intro, tech evaluation...
+
+Reasons: found someone cheaper / experienced, situation changed, timing, flawed interview process...
+
+```
+Rejection is an opinion: rejection is an opinion of the rejector. It is heavilty influenced by historical context. there is no universal rejection or acceptance
+- jia jiang, rejection proof
+```
+Set boundaries: say no to different leadership style, hostile interviewer, lowering salary
+
+Spend more time studying for the jobs that excites you
+
+The speaker spent 70 hours (30%) on take-home projects, only one of them turned to a job
+
+Should I do project based interviews? Consider if you can learn the project e.g. new tool
+
+Find a way to survive: Be patient and tough. Some day this will be useful to you.e.g. practise mindfulness, get enough sleep, send yourself a postcard (encourage yourself).
+
+course: science of welling-being from yale university 
+
+leverage WWC: SLACK #Interview-prep 
+
+**start journaling about different scenarios**
+
+Talk about your successes and challenges e.g. when I was working in a team
+
+Practice data structures e.g. HackerRank
+
+Be able to trace code, talk through the code 
+
 
 ### Knowledge Snippets 
 #### RSpec allow/expect vs. expect/and_return
