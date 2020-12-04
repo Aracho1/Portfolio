@@ -1,22 +1,23 @@
 require 'exercise_1'
 
 describe Note do
+  let(:formatter) { double(:formatter)}
+  let(:note) { Note.new("title", "body", formatter)}
+
   describe "#display" do
-    it 'displays a note in a formatted way' do
-      formatter_double = double :formatter
-      note = Note.new("title", "body", formatter_double)
-      allow(formatter_double).to receive(:format).with(note).and_return("#{note.title}\n#{note.body}")
-      expect(note.display).to eq "title\nbody"
+    it 'displays the formatted note' do
+      allow(formatter).to receive(:format).with(note).and_return("Title: title\nbody")
+      expect(note.display).to eq "Title: title\nbody"
     end
   end
 end
 
 describe NoteFormatter do
+  let(:note) { double(title:"To do", body:"Buy bananas")}
+  let(:note_formatter) { NoteFormatter.new(note) }
   describe "#format" do
     it 'formates the note' do
-      note_double = double :note, title: "title is this", body: "body is this"
-      formatter = NoteFormatter.new(note_double)
-      expect(formatter.format(note_double)).to eq "Title: title is this\nbody is this"
+      expect(note_formatter.format(note)).to eq "Title: To do\nBuy bananas"
     end
   end
 end

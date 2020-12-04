@@ -1,0 +1,1 @@
+require 'exercise_3'

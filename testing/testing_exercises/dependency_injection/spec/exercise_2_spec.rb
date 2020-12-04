@@ -1,23 +1,28 @@
 require 'exercise_2'
 
 describe Diary do
+  let(:entry) { double(:entry, title: "title", body:"body") }
+  let(:entry_class_double) { double(new: entry) }
+  subject(:diary){ Diary.new(entry_class_double) }
+
   describe "#add" do
     it 'adds a new entry in the diary' do
-      entry_double = double :entry
-      entry_class_double = double :entry_class, new: entry_double
+      expect(diary.add("title", "body")).to include entry
+    end
+  end
 
-      diary = Diary.new(entry_class_double)
-
-      expect(diary.entries).to receive(<<)
-      diary.add("hello", "world")
+  describe "#index" do
+    it 'prints out the title of each entry' do
+      diary.add("title", "body")
+      expect(diary.index).to eq "title"
     end
   end
 end
 
 describe Entry do
+  let(:entry) { Entry.new("title", "body")}
   it 'makes a diary entry' do
-    new_entry = Entry.new("hello", "world")
-    expect(new_entry.title).to eq "hello"
-    expect(new_entry.body).to eq "world"
+    expect(entry.title).to eq "title"
+    expect(entry.body).to eq "body"
   end
 end
