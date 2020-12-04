@@ -47,7 +47,6 @@ To be a good feedback receiver:
 
 Framework for good feedback: Actionable, Specific and Kind.
 
-
 ### Knowledge Snippets 
 #### RSpec allow/expect vs. expect/and_return
 Allow makes a stub while expect makes a mock. That is allow allows an object to return X instead of whatever it would return unstubbed, and expect is an allow plus an expectation of some state or event. 
