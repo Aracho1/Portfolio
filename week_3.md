@@ -23,6 +23,12 @@
 - EVIDENCE:
 - Others: get coach feedback on weekend challenge
 
+Week Kick off - Tips from Eoin
+- Keep track of progress
+- Guide to self-directed learning [post](https://blog.makersacademy.com/eds-guide-to-self-directed-learning-20a9022e418c)
+- Stop comparing yourself [post](https://blog.makersacademy.com/3-ways-to-stop-comparing-yourself-ff518bd71171)
+- Learning to Learn [post](https://sjmog.github.io/posts/491_learning_to_learn_1/)
+
 ### IP vs TCP
 The TCP/IP relationship is similar to sending someone a message written on a puzzle through the mail. The message is written down and the puzzle is broken into pieces. Each piece then can travel through a different postal route, some of which take longer than others. When the puzzle pieces arrive after traversing their different paths, the pieces may be out of order. The Internet Protocol makes sure the pieces arrive at their destination address. The TCP protocol can be thought of as the puzzle assembler on the other side who puts the pieces together in the right order, asks for missing pieces to be resent, and lets the sender know the puzzle has been received. TCP maintains the connection with the sender from before the first puzzle piece is sent to after the final piece is sent.
 
