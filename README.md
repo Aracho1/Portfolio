@@ -16,10 +16,10 @@ This is my learning journey at Makers. I will be tracking my goals, progress and
 #### Collaboration
 
 ## Projects
-- [Takeaway Challenge](https://github.com/Aracho1/takeaway-challenge)
-- [Oystercard challenge](https://github.com/Aracho1/oyster_card_5)
-- [Airport Challenge](https://github.com/Aracho1/airport_challenge): Test developing a simple program using Ruby and RSpec
-- [Precourse](https://github.com/Aracho1/mastery-quizzes): Understanding of Ruby fundamentals
+- [Takeaway Challenge](https://github.com/Aracho1/takeaway-challenge): Designed a program which can take orders and send confirmation texts via Twilio (Ruby, Twilio, RSpec)
+- [Oystercard challenge](https://github.com/Aracho1/oyster_card_5): Used test-driven development to write a Ruby program which emulates the London tube system (Ruby, RSpec)
+- [Airport Challenge](https://github.com/Aracho1/airport_challenge): Used Rspec to test drive a Ruby program which emulates the airport traffic system (Ruby, Rspec)
+- [Precourse](https://github.com/Aracho1/mastery-quizzes): Completed a series of Ruby practical covering the fundamentals such as arrays, methods, hash and object oriented programming (Ruby, Git, Command Line)
 
 ## Blog Posts
 I have been writing regular blog posts about my developer journey on Medium.
