@@ -18,9 +18,9 @@
 ## Daily goals
 
 #### Monday 7th December
-- GOAL: 
-- PLAN: 
-- EVIDENCE:
+- GOAL: Get a broad understanding of the concepts that will be covered this week (HTTP, server, Sinatra)
+- PLAN: Look through the practicals and Google concepts. Work on the pair programming challenge in the afternoon
+- EVIDENCE: Write notes
 - Others: get coach feedback on weekend challenge
 
 Week Kick off - Tips from Eoin
