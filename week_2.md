@@ -6,9 +6,9 @@
 | ------ | ------ | ------ | ------ | ------ | ------ | 
 | **Unit testing** | Learn how to write isolated unit tests | Complete related exercises. Get coach feedback | (1)[Testing OO Relationships using Mocking](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/testing_relationships.md) (2)[Dependency Injection](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/dependency_injection.md)    (3)[Testing behaviour over testing state](https://github.com/makersacademy/skills-workshops/blob/master/practicals/testing/behaviour_not_state.md) | Finished first two practicals | In progress
 | **Process Workshop** | Attend my first process workshop | Be able to structure and demonstrate process  | Complete a code kata | Yes! | [my first process workshop](https://github.com/Aracho1/Portfolio/tree/main/process_workshops)
-| **Oystercard challenge** | Work on pair programming challenge | Meet challenge requirements | Using mock, double | Final step (16) needs to be completed | repo
-| **Weekend Challenge** | Work on the weekend challenge  | Complete the project with high quality code | - | Yes!| repo |
-| **Blogging** | Write a blog post about this week | Write and post the blog on Medium | Potential themes: TDD, process workshop, rspec... | Yes! | posted on Medium |
+| **Oystercard challenge** | Work on pair programming challenge | Meet challenge requirements | Using mock, double | Final step (16) needs to be completed | repo[https://github.com/Aracho1/oyster_card_5]
+| **Weekend Challenge** | Work on the weekend challenge  | Complete the project with high quality code | - | Finished all user stories and sending Twilio text works. But testing probably needs another polishing (e.g. mocking) | [repo](https://github.com/Aracho1/takeaway-challenge) |
+| **Blogging** | Write a blog post about this week | Write and post the blog on Medium | Potential themes: TDD, process workshop, rspec... | Yes! | [Post](https://hello-ara.medium.com/my-week-as-a-coding-bootcamp-student-5f0fc73b733c) |
 
 ### Coach feedback on weekend challenge ([airport challenge](https://github.com/Aracho1/airport_challenge))
 
