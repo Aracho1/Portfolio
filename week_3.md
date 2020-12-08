@@ -14,6 +14,12 @@
 | **Blogging** | Write a blog post about this week | Write and post the blog on Medium | | Not started| post |
 
 ### Coach feedback on weekend challenge ([takeaway challenge](https://github.com/Aracho1/takeaway-challenge))
+```
+- Really great readme, made it super clear what was implemented and how it’s used
+- Nice work on implementing Twilio! A way to tidy this up a bit would be to implement it within its own class. You could do some of the set-up in initialise (like creating the client), define your constants, and then a method for sending.
+- Another unit test for Restaurant could be useful in ensuring the name and price of a dish exists and in the expected format. Your test it 'prints out the list of dishes’ do does test that the method exists, but it doesn’t test that it actually prints out the list of dishes. You can run a test with rspec to check the output matches what you expect (and on that note, maybe printing it as a formatted string instead of just a hash)
+- The way you are calling restaurant from Takeaway is correct. If I had one suggestion, it’s that the responsibilities of both methods in Restaurant might not belong together. One is the menu and one is a formatting method - you might want to change the menu in the future, but want the user interface (print_menu) to stay the same, so it’s easier to separate them for this reason.
+```
 
 ## Daily goals
 
