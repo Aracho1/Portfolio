@@ -38,10 +38,10 @@ Week Kick off - Tips from Eoin
 Google [doc](https://docs.google.com/document/d/1INpukB1ObjJlHbEAFqaoYuPEE9WrXragvsc3JcVq_9M/edit) summarising notes on intro to web
 
 #### Monday 7th December
-- GOAL:
-- PLAN:
+- GOAL: improve understanding of HTTP, client-server, erb
+- PLAN: reflect on learning from workshop / afternoon challenge
 - EVIDENCE:
-- Others: debugging workshop
+- Others: HTTP/process workshop
 
 ## Reflection
 
